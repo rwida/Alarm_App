@@ -22,7 +22,6 @@ class _ClockPageState extends State<ClockPage> {
   @override
   Widget build(BuildContext context) {
     var now = DateTime.now();
-    //var formattedTime = DateFormat('HH:mm').format(now);
     var formattedDate = DateFormat('EEE, d MMM').format(now);
     var timezoneString = now.timeZoneOffset.toString().split('.').first;
     var offsetSign = '';

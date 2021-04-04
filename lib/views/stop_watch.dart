@@ -91,50 +91,43 @@ class _StopWatchState extends State<StopWatch> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         RaisedButton(
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 40,
-                              vertical: 15,
-                            ),
-                            child: Text(
-                              "Stop",
-                              style:
-                                  TextStyle(fontSize: 20, color: Colors.white),
-                            ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 20,
+                            vertical: 10,
+                          ),
+                          child: Text(
+                            "Stop",
+                            style: TextStyle(fontSize: 20, color: Colors.white),
                           ),
                           color: Colors.red,
                           onPressed: stoppress ? null : stop,
                         ),
                         RaisedButton(
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 40,
-                              vertical: 15,
-                            ),
-                            child: Text(
-                              "Reset",
-                              style:
-                                  TextStyle(fontSize: 20, color: Colors.white),
-                            ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 20,
+                            vertical: 10,
+                          ),
+                          child: Text(
+                            "Reset",
+                            style: TextStyle(fontSize: 20, color: Colors.white),
                           ),
                           color: Colors.teal,
                           onPressed: resetpress ? null : reset,
                         )
                       ],
                     ),
-                    RaisedButton(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 80,
-                          vertical: 20,
-                        ),
+                    Container(
+                      width: (MediaQuery.of(context).size.width -
+                              MediaQuery.of(context).padding.horizontal) *
+                          0.6,
+                      child: RaisedButton(
                         child: Text(
                           stoptimerDispaly != "00:00:00" ? "Resume" : "Start",
                           style: TextStyle(fontSize: 24, color: Colors.white),
                         ),
+                        color: Colors.green,
+                        onPressed: startpress ? start : null,
                       ),
-                      color: Colors.green,
-                      onPressed: startpress ? start : null,
                     )
                   ],
                 ),

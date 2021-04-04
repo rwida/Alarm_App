@@ -286,20 +286,27 @@ class _AlarmPageState extends State<AlarmPage> {
       'alarm_notif',
       'Channel for Alarm notification',
       icon: 'codex_logo',
+      playSound: true,
       sound: RawResourceAndroidNotificationSound('a_long_cold_sting'),
       largeIcon: DrawableResourceAndroidBitmap('codex_logo'),
     );
 
     var iOSPlatformChannelSpecifics = IOSNotificationDetails(
-        sound: 'a_long_cold_sting.wav',
-        presentAlert: true,
-        presentBadge: true,
-        presentSound: true);
+      sound: 'a_long_cold_sting.wav',
+      presentAlert: true,
+      presentBadge: true,
+      presentSound: true,
+    );
     var platformChannelSpecifics = NotificationDetails(
         androidPlatformChannelSpecifics, iOSPlatformChannelSpecifics);
 
-    await flutterLocalNotificationsPlugin.schedule(0, 'Office', alarmInfo.title,
-        scheduledNotificationDateTime, platformChannelSpecifics);
+    await flutterLocalNotificationsPlugin.schedule(
+      0,
+      'Alarm',
+      alarmInfo.title,
+      scheduledNotificationDateTime,
+      platformChannelSpecifics,
+    );
   }
 
   void onSaveAlarm() {
@@ -312,7 +319,7 @@ class _AlarmPageState extends State<AlarmPage> {
     var alarmInfo = AlarmInfo(
       alarmDateTime: scheduleAlarmDateTime,
       gradientColorIndex: _currentAlarms.length,
-      title: 'alarm',
+      title: 'Wake Up!!',
     );
     _alarmHelper.insertAlarm(alarmInfo);
     scheduleAlarm(scheduleAlarmDateTime, alarmInfo);

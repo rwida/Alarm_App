@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:clock_app/constants/theme_data.dart';
 import 'package:flutter/material.dart';
 import 'package:numberpicker/numberpicker.dart';
@@ -65,6 +64,7 @@ class _TimerPageState extends State<TimerPage> {
     return Scaffold(
       backgroundColor: CustomColors.pageBackgroundColor,
       body: Container(
+        width: MediaQuery.of(context).size.width,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -193,46 +193,43 @@ class _TimerPageState extends State<TimerPage> {
               ),
             ),
             Expanded(
-                flex: 3,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    RaisedButton(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                      color: Colors.green,
-                      onPressed: started ? start : null,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 40,
-                          vertical: 10,
-                        ),
-                        child: Text(
-                          "Start",
-                          style: TextStyle(fontSize: 18, color: Colors.white),
-                        ),
-                      ),
+              flex: 3,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  RaisedButton(
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 20,
+                      vertical: 10,
                     ),
-                    RaisedButton(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                      color: Colors.red,
-                      onPressed: stoped ? null : stop,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 40,
-                          vertical: 10,
-                        ),
-                        child: Text(
-                          "Stop",
-                          style: TextStyle(fontSize: 18, color: Colors.white),
-                        ),
-                      ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15),
                     ),
-                  ],
-                )),
+                    color: Colors.green,
+                    onPressed: started ? start : null,
+                    child: Text(
+                      "Start",
+                      style: TextStyle(fontSize: 18, color: Colors.white),
+                    ),
+                  ),
+                  RaisedButton(
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 20,
+                      vertical: 10,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    color: Colors.red,
+                    onPressed: stoped ? null : stop,
+                    child: Text(
+                      "Stop",
+                      style: TextStyle(fontSize: 18, color: Colors.white),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
