@@ -1,0 +1,183 @@
+{
+  "@@last_modified": "2019-02-19T17:05:40.408521",
+  "nearStores": "Near Stores",
+  "@nearStores": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "profile": "Profile",
+  "@profile": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "myOrders": "My Orders",
+  "@myOrders": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "basket": "Basket",
+  "@basket": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contactUs": "Contact us",
+  "@contactUs": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout": "Logout",
+  "@logout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Email",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "update": "Update",
+  "@update": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "again": "again",
+  "@again": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "currentOrders": "Current Orders",
+  "@currentOrders": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "deliveredOrders": "Delivered Orders",
+  "@deliveredOrders": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "canceledOrders": "Canceled Orders",
+  "@canceledOrders": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "orderDetails": "Order Details",
+  "@orderDetails": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "storeName": "Store Name",
+  "@storeName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "employeeName": "Employee name",
+  "@employeeName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "billCode": "Bill code",
+  "@billCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "orderStatus": "Order status",
+  "@orderStatus": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "quantity": "Quantity",
+  "@quantity": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "productsPrice": "Products price",
+  "@productsPrice": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "taxes": "Taxes",
+  "@taxes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "deliveryCost": "Delivery cost",
+  "@deliveryCost": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "totalPrice": "Total price",
+  "@totalPrice": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "checkout": "Checkout",
+  "@checkout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "basketIsEmpty": "Basket is empty",
+  "@basketIsEmpty": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "add": "Add",
+  "@add": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "addedToBasket": "Added to basket",
+  "@addedToBasket": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "chooseNotFoundOption": "Choose not found option first",
+  "@chooseNotFoundOption": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ifItemNotFound": "If an item not found ?",
+  "@ifItemNotFound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "bringSimilarItem": "Bring similar item",
+  "@bringSimilarItem": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "doNotBringItem": "Don't bring the item",
+  "@doNotBringItem": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancelTheOrder": "Cancel the order",
+  "@cancelTheOrder": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sar": "SAR",
+  "@sar": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cashOnDelivery": "Cash on delivery",
+  "@cashOnDelivery": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notFoundOption": "Not found option",
+  "@notFoundOption": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

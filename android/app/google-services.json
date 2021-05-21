@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006647064058",
+    "project_id": "superk-283a1",
+    "storage_bucket": "superk-283a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006647064058:android:1dc29e996e846836e42043",
+        "android_client_info": {
+          "package_name": "com.gorgov.superk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006647064058-6gk75a7g960j6ak25j56b0rltkohor8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA19EkmCWMFfcjonhlxHsTHJWRiQSwJw5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006647064058-6gk75a7g960j6ak25j56b0rltkohor8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

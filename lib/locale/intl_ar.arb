@@ -1,0 +1,183 @@
+{
+  "@@last_modified": "2019-02-19T16:44:34.978601",
+  "nearStores": "المتاجر القريبة",
+  "@nearStores": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "profile": "الملف الشخصي",
+  "@profile": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "myOrders": "طلباتي",
+  "@myOrders": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "basket": "السلة",
+  "@basket": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contactUs": "اتصل بنا",
+  "@contactUs": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout": "تسجيل الخروج",
+  "@logout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "البريد الإلكتروني",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "كلمة المرور",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "update": "تحديث",
+  "@update": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "again": "مجداا",
+  "@again": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "currentOrders": "الطبات الحالية",
+  "@currentOrders": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "deliveredOrders": "الطلبات المستلمة",
+  "@deliveredOrders": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "canceledOrders": "الطلبات الملغاة",
+  "@canceledOrders": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "orderDetails": "تفاصيل الطلب",
+  "@orderDetails": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "storeName": "اسم المتجر",
+  "@storeName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "employeeName": "اسم الموظف",
+  "@employeeName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "billCode": "رمز الفاتورة",
+  "@billCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "orderStatus": "حالة الطلب",
+  "@orderStatus": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "quantity": "الكمية",
+  "@quantity": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "productsPrice": "سعر المنتجات",
+  "@productsPrice": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "taxes": "الضرائب",
+  "@taxes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "deliveryCost": "تكلفة التوصيل",
+  "@deliveryCost": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "totalPrice": "السعر الكلي",
+  "@totalPrice": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "checkout": "الدفع",
+  "@checkout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "basketIsEmpty": "السلة فارغة",
+  "@basketIsEmpty": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "add": "إضافة",
+  "@add": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "addedToBasket": "تم الاضافة الي السلة",
+  "@addedToBasket": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "chooseNotFoundOption": "اختر فى حالة لم يتم العثور على المنتج أولا",
+  "@chooseNotFoundOption": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ifItemNotFound": "اذا لم يتم العثور على المنتج ؟",
+  "@ifItemNotFound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "bringSimilarItem": "احضار منتج مشابه",
+  "@bringSimilarItem": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "doNotBringItem": "لا تحضر المنتج",
+  "@doNotBringItem": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancelTheOrder": "الغاء الطلب",
+  "@cancelTheOrder": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sar": "ر س",
+  "@sar": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cashOnDelivery": "الدفع عند الاستلام",
+  "@cashOnDelivery": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "confirm": "تأكيد",
+  "@confirm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notFoundOption": "فى حالة عدم وجود المنتج",
+  "@notFoundOption": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
